@@ -10,6 +10,9 @@ import UIKit
 
 class StartScreen: UIViewController {
 
+    let username = "Manuel"
+    let password = "geb16"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
