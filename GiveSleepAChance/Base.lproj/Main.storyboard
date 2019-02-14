@@ -221,6 +221,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ix4-5T-yB3">
+                                <rect key="frame" x="165" y="688" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="AddfromTestToList:" destination="S2H-YR-XNz" eventType="touchUpInside" id="xCx-VG-lMr"/>
+                                    <segue destination="6O0-N3-RlJ" kind="show" identifier="aftertressadd" id="gKF-XY-1Ul"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.4647662514" green="0.68189592939999999" blue="0.94773276370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -375,6 +386,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="wMv-lT-SLB"/>
+        <segue reference="gKF-XY-1Ul"/>
         <segue reference="0uj-V1-ncQ"/>
     </inferredMetricsTieBreakers>
 </document>
