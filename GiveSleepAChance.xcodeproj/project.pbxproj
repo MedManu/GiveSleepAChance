@@ -14,6 +14,7 @@
 		0EBA07A52215558A00C4E9F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBA07A32215558A00C4E9F5 /* LaunchScreen.storyboard */; };
 		0EBA07B02215558A00C4E9F5 /* GiveSleepAChanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA07AF2215558A00C4E9F5 /* GiveSleepAChanceTests.swift */; };
 		0EBA07BB2215558A00C4E9F5 /* GiveSleepAChanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA07BA2215558A00C4E9F5 /* GiveSleepAChanceUITests.swift */; };
+		0EBA07CA22156DFD00C4E9F5 /* ViewControllerforLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA07C922156DFD00C4E9F5 /* ViewControllerforLogin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0EBA07B62215558A00C4E9F5 /* GiveSleepAChanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiveSleepAChanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBA07BA2215558A00C4E9F5 /* GiveSleepAChanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveSleepAChanceUITests.swift; sourceTree = "<group>"; };
 		0EBA07BC2215558A00C4E9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EBA07C922156DFD00C4E9F5 /* ViewControllerforLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerforLogin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		0EBA07C8221555B900C4E9F5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				0EBA07C922156DFD00C4E9F5 /* ViewControllerforLogin.swift */,
 				0EBA079C2215558800C4E9F5 /* StartScreen.swift */,
 			);
 			path = ViewController;
@@ -266,6 +269,7 @@
 			files = (
 				0EBA079D2215558800C4E9F5 /* StartScreen.swift in Sources */,
 				0EBA079B2215558800C4E9F5 /* AppDelegate.swift in Sources */,
+				0EBA07CA22156DFD00C4E9F5 /* ViewControllerforLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
