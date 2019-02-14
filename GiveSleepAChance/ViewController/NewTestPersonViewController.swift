@@ -21,6 +21,8 @@ class NewTestPersonViewController: UIViewController {
     }
     
 
+    @IBAction func AddfromTestToList(_ sender: Any) {
+    }
     /*
     // MARK: - Navigation
 
