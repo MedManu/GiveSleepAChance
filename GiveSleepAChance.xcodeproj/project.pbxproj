@@ -16,6 +16,7 @@
 		0EBA07BB2215558A00C4E9F5 /* GiveSleepAChanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA07BA2215558A00C4E9F5 /* GiveSleepAChanceUITests.swift */; };
 		0EBA07CA22156DFD00C4E9F5 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA07C922156DFD00C4E9F5 /* NewUserViewController.swift */; };
 		0EBA07D52215973800C4E9F5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA07D42215973800C4E9F5 /* MainViewController.swift */; };
+		0EBA07D72215B19D00C4E9F5 /* NewTestPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA07D62215B19D00C4E9F5 /* NewTestPersonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		0EBA07C922156DFD00C4E9F5 /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
 		0EBA07D322158DDC00C4E9F5 /* LOginButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOginButton.png; sourceTree = "<group>"; };
 		0EBA07D42215973800C4E9F5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0EBA07D62215B19D00C4E9F5 /* NewTestPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestPersonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			children = (
 				0EBA07C922156DFD00C4E9F5 /* NewUserViewController.swift */,
 				0EBA07D42215973800C4E9F5 /* MainViewController.swift */,
+				0EBA07D62215B19D00C4E9F5 /* NewTestPersonViewController.swift */,
 				0EBA079C2215558800C4E9F5 /* StartScreen.swift */,
 				0EBA07D222158DD000C4E9F5 /* Buttons */,
 			);
@@ -284,6 +287,7 @@
 				0EBA079B2215558800C4E9F5 /* AppDelegate.swift in Sources */,
 				0EBA07CA22156DFD00C4E9F5 /* NewUserViewController.swift in Sources */,
 				0EBA07D52215973800C4E9F5 /* MainViewController.swift in Sources */,
+				0EBA07D72215B19D00C4E9F5 /* NewTestPersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
