@@ -9,6 +9,10 @@
 import UIKit
 
 class NewTestPersonViewController: UIViewController {
+    
+    
+    @IBOutlet var TestPersonName: UITextField!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
