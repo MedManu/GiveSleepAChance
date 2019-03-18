@@ -19,5 +19,35 @@ class StartScreen: UIViewController {
     }
 
 
+
+    @IBAction func userNamefield(_ sender: Any) {
+    }
+    
+
+    
+    @IBAction func passwordfield(_ sender: Any) {
+    }
+    
+    
+    @IBAction func loginBtn(_ sender: Any) {
+        
+        print("Login was tapped")
+    }
+    
+    
+    
+    @IBAction func forgotPwd(_ sender: Any) {
+    }
+    
+    @IBAction func createNewUser(_ sender: Any) {
+        print("New User Tapped")
+        //verweis auf Storyboard für neuen User verbimndung von Identifier und Name des Storyboards
+        let registerViewController = self.storyboard?.instantiateViewController(withIdentifier: "NewUserViewController" ) as! NewUserViewController
+        
+        //presentation
+        self.present(registerViewController, animated: true )
+        
+    }
 }
+
 
