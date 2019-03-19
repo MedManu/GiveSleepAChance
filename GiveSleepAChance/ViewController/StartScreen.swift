@@ -37,6 +37,10 @@ class StartScreen: UIViewController {
     
     
     @IBAction func forgotPwd(_ sender: Any) {
+        
+        let forgotPWDController = self.storyboard?.instantiateViewController(withIdentifier: "ForgotPasswordViewController") as! ForgotPasswordViewController
+        
+       self.present(forgotPWDController, animated: true)
     }
     
     @IBAction func createNewUser(_ sender: Any) {

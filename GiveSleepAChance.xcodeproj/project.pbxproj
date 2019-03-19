@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0DA8C622418906006C741A /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DA8C522418906006C741A /* ForgotPasswordViewController.swift */; };
 		0EBA079B2215558800C4E9F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA079A2215558800C4E9F5 /* AppDelegate.swift */; };
 		0EBA079D2215558800C4E9F5 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA079C2215558800C4E9F5 /* StartScreen.swift */; };
 		0EBA07A02215558800C4E9F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBA079E2215558800C4E9F5 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E0DA8C522418906006C741A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		0EBA07972215558800C4E9F5 /* GiveSleepAChance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiveSleepAChance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBA079A2215558800C4E9F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EBA079C2215558800C4E9F5 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			children = (
 				0EBA07C922156DFD00C4E9F5 /* NewUserViewController.swift */,
 				0EBA07D42215973800C4E9F5 /* MainViewController.swift */,
+				0E0DA8C522418906006C741A /* ForgotPasswordViewController.swift */,
 				0EBA07D62215B19D00C4E9F5 /* NewTestPersonViewController.swift */,
 				0EBA079C2215558800C4E9F5 /* StartScreen.swift */,
 				0EBA07D222158DD000C4E9F5 /* Buttons */,
@@ -285,6 +288,7 @@
 			files = (
 				0EBA079D2215558800C4E9F5 /* StartScreen.swift in Sources */,
 				0EBA079B2215558800C4E9F5 /* AppDelegate.swift in Sources */,
+				0E0DA8C622418906006C741A /* ForgotPasswordViewController.swift in Sources */,
 				0EBA07CA22156DFD00C4E9F5 /* NewUserViewController.swift in Sources */,
 				0EBA07D52215973800C4E9F5 /* MainViewController.swift in Sources */,
 				0EBA07D72215B19D00C4E9F5 /* NewTestPersonViewController.swift in Sources */,

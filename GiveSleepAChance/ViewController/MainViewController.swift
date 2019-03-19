@@ -11,6 +11,9 @@ import UIKit
 class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     
+    @IBOutlet var loadBtn: NSLayoutConstraint!
+    
+    
     var list = ["Manuel","Fabienne","Barbara"]
     
     
@@ -34,6 +37,9 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        view.backgroundColor = Theme.Background
+        loadBtn.backgroundColor = Theme.Tint
         
     }
     
