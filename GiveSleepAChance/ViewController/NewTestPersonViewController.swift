@@ -9,6 +9,10 @@
 import UIKit
 
 class NewTestPersonViewController: UIViewController {
+    
+    
+    @IBOutlet var TestPersonName: UITextField!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,6 +21,8 @@ class NewTestPersonViewController: UIViewController {
     }
     
 
+    @IBAction func AddfromTestToList(_ sender: Any) {
+    }
     /*
     // MARK: - Navigation
 
