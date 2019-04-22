@@ -38,8 +38,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidLoad()
         
         
-        view.backgroundColor = Theme.Background
-        loadBtn.backgroundColor = Theme.Tint
+        
         
     }
     
