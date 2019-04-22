@@ -22,6 +22,11 @@
 		32E11F21226E2CC1000F0C20 /* ImpressumImpressum.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F1D226E2CC1000F0C20 /* ImpressumImpressum.png */; };
 		32E11F22226E2CC1000F0C20 /* StatistikStatistik.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F1E226E2CC1000F0C20 /* StatistikStatistik.png */; };
 		32E11F23226E2CC1000F0C20 /* FunktionenFunktionen.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F1F226E2CC1000F0C20 /* FunktionenFunktionen.png */; };
+		32E11F29226E2FA1000F0C20 /* FragebogenFragebogen.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F25226E2FA1000F0C20 /* FragebogenFragebogen.png */; };
+		32E11F2A226E2FA1000F0C20 /* ImpressumImpressum.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F26226E2FA1000F0C20 /* ImpressumImpressum.png */; };
+		32E11F2B226E2FA1000F0C20 /* StatistikStatistik.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F27226E2FA1000F0C20 /* StatistikStatistik.png */; };
+		32E11F2C226E2FA1000F0C20 /* FunktionenFunktionen.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F28226E2FA1000F0C20 /* FunktionenFunktionen.png */; };
+		32E11F2E226E2FB7000F0C20 /* TestpersonTestpersonenBTN.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F2D226E2FB7000F0C20 /* TestpersonTestpersonenBTN.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +69,11 @@
 		32E11F1D226E2CC1000F0C20 /* ImpressumImpressum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ImpressumImpressum.png; path = ../../../../../../Downloads/ImpressumImpressum.png; sourceTree = "<group>"; };
 		32E11F1E226E2CC1000F0C20 /* StatistikStatistik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatistikStatistik.png; path = ../../../../../../Downloads/StatistikStatistik.png; sourceTree = "<group>"; };
 		32E11F1F226E2CC1000F0C20 /* FunktionenFunktionen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FunktionenFunktionen.png; path = ../../../../../../Downloads/FunktionenFunktionen.png; sourceTree = "<group>"; };
+		32E11F25226E2FA1000F0C20 /* FragebogenFragebogen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FragebogenFragebogen.png; path = ../../../../Downloads/FragebogenFragebogen.png; sourceTree = "<group>"; };
+		32E11F26226E2FA1000F0C20 /* ImpressumImpressum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ImpressumImpressum.png; path = ../../../../Downloads/ImpressumImpressum.png; sourceTree = "<group>"; };
+		32E11F27226E2FA1000F0C20 /* StatistikStatistik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatistikStatistik.png; path = ../../../../Downloads/StatistikStatistik.png; sourceTree = "<group>"; };
+		32E11F28226E2FA1000F0C20 /* FunktionenFunktionen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FunktionenFunktionen.png; path = ../../../../Downloads/FunktionenFunktionen.png; sourceTree = "<group>"; };
+		32E11F2D226E2FB7000F0C20 /* TestpersonTestpersonenBTN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TestpersonTestpersonenBTN.png; path = ../../../../Downloads/TestpersonTestpersonenBTN.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,7 @@
 		0EBA078E2215558800C4E9F5 = {
 			isa = PBXGroup;
 			children = (
+				32E11F24226E2F88000F0C20 /* Buttons */,
 				0EBA07992215558800C4E9F5 /* GiveSleepAChance */,
 				0EBA07AE2215558A00C4E9F5 /* GiveSleepAChanceTests */,
 				0EBA07B92215558A00C4E9F5 /* GiveSleepAChanceUITests */,
@@ -163,6 +174,18 @@
 				32E11F1D226E2CC1000F0C20 /* ImpressumImpressum.png */,
 				32E11F1E226E2CC1000F0C20 /* StatistikStatistik.png */,
 				32E11F1A226B3C83000F0C20 /* GroupTestpersonenBTN.png */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		32E11F24226E2F88000F0C20 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				32E11F25226E2FA1000F0C20 /* FragebogenFragebogen.png */,
+				32E11F28226E2FA1000F0C20 /* FunktionenFunktionen.png */,
+				32E11F2D226E2FB7000F0C20 /* TestpersonTestpersonenBTN.png */,
+				32E11F26226E2FA1000F0C20 /* ImpressumImpressum.png */,
+				32E11F27226E2FA1000F0C20 /* StatistikStatistik.png */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -271,14 +294,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E11F2E226E2FB7000F0C20 /* TestpersonTestpersonenBTN.png in Resources */,
 				0EBA07A52215558A00C4E9F5 /* LaunchScreen.storyboard in Resources */,
+				32E11F2C226E2FA1000F0C20 /* FunktionenFunktionen.png in Resources */,
 				32E11F21226E2CC1000F0C20 /* ImpressumImpressum.png in Resources */,
 				0EBA07A22215558A00C4E9F5 /* Assets.xcassets in Resources */,
 				32E11F20226E2CC1000F0C20 /* FragebogenFragebogen.png in Resources */,
 				32E11F1B226B3C83000F0C20 /* GroupTestpersonenBTN.png in Resources */,
 				32E11F23226E2CC1000F0C20 /* FunktionenFunktionen.png in Resources */,
 				0EBA07A02215558800C4E9F5 /* Main.storyboard in Resources */,
+				32E11F29226E2FA1000F0C20 /* FragebogenFragebogen.png in Resources */,
+				32E11F2B226E2FA1000F0C20 /* StatistikStatistik.png in Resources */,
 				32E11F22226E2CC1000F0C20 /* StatistikStatistik.png in Resources */,
+				32E11F2A226E2FA1000F0C20 /* ImpressumImpressum.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

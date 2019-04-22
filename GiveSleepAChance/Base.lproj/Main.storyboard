@@ -137,11 +137,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJd-Ao-p0W">
-                                <rect key="frame" x="104" y="345" width="169" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PnD-HN-P4y">
                                 <rect key="frame" x="102" y="497" width="169" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -155,7 +150,12 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFJ-MZ-x4k">
                                 <rect key="frame" x="25" y="205" width="334" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="GroupTestpersonenBTN.png"/>
+                                <state key="normal" image="TestpersonTestpersonenBTN.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJd-Ao-p0W">
+                                <rect key="frame" x="25" y="327" width="334" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="FragebogenFragebogen.png"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3581106564" green="0.65250510390000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -400,9 +400,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="GroupTestpersonenBTN.png" width="412" height="113"/>
+        <image name="FragebogenFragebogen.png" width="420" height="111"/>
         <image name="Image" width="239" height="243"/>
         <image name="LOginButton.png" width="120" height="59"/>
+        <image name="TestpersonTestpersonenBTN.png" width="412" height="111"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="wMv-lT-SLB"/>
