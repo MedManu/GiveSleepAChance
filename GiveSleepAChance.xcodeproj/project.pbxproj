@@ -10,23 +10,18 @@
 		0EBA079B2215558800C4E9F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA079A2215558800C4E9F5 /* AppDelegate.swift */; };
 		0EBA079D2215558800C4E9F5 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA079C2215558800C4E9F5 /* StartScreen.swift */; };
 		0EBA07A02215558800C4E9F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBA079E2215558800C4E9F5 /* Main.storyboard */; };
-		0EBA07A22215558A00C4E9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EBA07A12215558A00C4E9F5 /* Assets.xcassets */; };
 		0EBA07A52215558A00C4E9F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBA07A32215558A00C4E9F5 /* LaunchScreen.storyboard */; };
 		0EBA07B02215558A00C4E9F5 /* GiveSleepAChanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA07AF2215558A00C4E9F5 /* GiveSleepAChanceTests.swift */; };
 		0EBA07BB2215558A00C4E9F5 /* GiveSleepAChanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA07BA2215558A00C4E9F5 /* GiveSleepAChanceUITests.swift */; };
 		0EBA07CA22156DFD00C4E9F5 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA07C922156DFD00C4E9F5 /* NewUserViewController.swift */; };
 		0EBA07D52215973800C4E9F5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA07D42215973800C4E9F5 /* MainViewController.swift */; };
 		0EBA07D72215B19D00C4E9F5 /* NewTestPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA07D62215B19D00C4E9F5 /* NewTestPersonViewController.swift */; };
-		32E11F1B226B3C83000F0C20 /* GroupTestpersonenBTN.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F1A226B3C83000F0C20 /* GroupTestpersonenBTN.png */; };
-		32E11F20226E2CC1000F0C20 /* FragebogenFragebogen.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F1C226E2CC1000F0C20 /* FragebogenFragebogen.png */; };
-		32E11F21226E2CC1000F0C20 /* ImpressumImpressum.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F1D226E2CC1000F0C20 /* ImpressumImpressum.png */; };
-		32E11F22226E2CC1000F0C20 /* StatistikStatistik.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F1E226E2CC1000F0C20 /* StatistikStatistik.png */; };
-		32E11F23226E2CC1000F0C20 /* FunktionenFunktionen.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F1F226E2CC1000F0C20 /* FunktionenFunktionen.png */; };
-		32E11F29226E2FA1000F0C20 /* FragebogenFragebogen.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F25226E2FA1000F0C20 /* FragebogenFragebogen.png */; };
-		32E11F2A226E2FA1000F0C20 /* ImpressumImpressum.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F26226E2FA1000F0C20 /* ImpressumImpressum.png */; };
-		32E11F2B226E2FA1000F0C20 /* StatistikStatistik.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F27226E2FA1000F0C20 /* StatistikStatistik.png */; };
-		32E11F2C226E2FA1000F0C20 /* FunktionenFunktionen.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F28226E2FA1000F0C20 /* FunktionenFunktionen.png */; };
-		32E11F2E226E2FB7000F0C20 /* TestpersonTestpersonenBTN.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E11F2D226E2FB7000F0C20 /* TestpersonTestpersonenBTN.png */; };
+		32325590226F89AD00018AC8 /* Impressum.png in Resources */ = {isa = PBXBuildFile; fileRef = 3232558B226F89AD00018AC8 /* Impressum.png */; };
+		32325591226F89AD00018AC8 /* Statistik.png in Resources */ = {isa = PBXBuildFile; fileRef = 3232558C226F89AD00018AC8 /* Statistik.png */; };
+		32325592226F89AD00018AC8 /* Funktionen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3232558D226F89AD00018AC8 /* Funktionen.png */; };
+		32325593226F89AD00018AC8 /* Fragebogen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3232558E226F89AD00018AC8 /* Fragebogen.png */; };
+		32325594226F89AD00018AC8 /* Testperson.png in Resources */ = {isa = PBXBuildFile; fileRef = 3232558F226F89AD00018AC8 /* Testperson.png */; };
+		32325596226F89C700018AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32325595226F89C600018AC8 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +46,6 @@
 		0EBA079A2215558800C4E9F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EBA079C2215558800C4E9F5 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
 		0EBA079F2215558800C4E9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0EBA07A12215558A00C4E9F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EBA07A42215558A00C4E9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EBA07A62215558A00C4E9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EBA07AB2215558A00C4E9F5 /* GiveSleepAChanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiveSleepAChanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,19 +55,14 @@
 		0EBA07BA2215558A00C4E9F5 /* GiveSleepAChanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveSleepAChanceUITests.swift; sourceTree = "<group>"; };
 		0EBA07BC2215558A00C4E9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EBA07C922156DFD00C4E9F5 /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
-		0EBA07D322158DDC00C4E9F5 /* LOginButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOginButton.png; sourceTree = "<group>"; };
 		0EBA07D42215973800C4E9F5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0EBA07D62215B19D00C4E9F5 /* NewTestPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestPersonViewController.swift; sourceTree = "<group>"; };
-		32E11F1A226B3C83000F0C20 /* GroupTestpersonenBTN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GroupTestpersonenBTN.png; path = ../../../../../../Downloads/GroupTestpersonenBTN.png; sourceTree = "<group>"; };
-		32E11F1C226E2CC1000F0C20 /* FragebogenFragebogen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FragebogenFragebogen.png; path = ../../../../../../Downloads/FragebogenFragebogen.png; sourceTree = "<group>"; };
-		32E11F1D226E2CC1000F0C20 /* ImpressumImpressum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ImpressumImpressum.png; path = ../../../../../../Downloads/ImpressumImpressum.png; sourceTree = "<group>"; };
-		32E11F1E226E2CC1000F0C20 /* StatistikStatistik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatistikStatistik.png; path = ../../../../../../Downloads/StatistikStatistik.png; sourceTree = "<group>"; };
-		32E11F1F226E2CC1000F0C20 /* FunktionenFunktionen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FunktionenFunktionen.png; path = ../../../../../../Downloads/FunktionenFunktionen.png; sourceTree = "<group>"; };
-		32E11F25226E2FA1000F0C20 /* FragebogenFragebogen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FragebogenFragebogen.png; path = ../../../../Downloads/FragebogenFragebogen.png; sourceTree = "<group>"; };
-		32E11F26226E2FA1000F0C20 /* ImpressumImpressum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ImpressumImpressum.png; path = ../../../../Downloads/ImpressumImpressum.png; sourceTree = "<group>"; };
-		32E11F27226E2FA1000F0C20 /* StatistikStatistik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatistikStatistik.png; path = ../../../../Downloads/StatistikStatistik.png; sourceTree = "<group>"; };
-		32E11F28226E2FA1000F0C20 /* FunktionenFunktionen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FunktionenFunktionen.png; path = ../../../../Downloads/FunktionenFunktionen.png; sourceTree = "<group>"; };
-		32E11F2D226E2FB7000F0C20 /* TestpersonTestpersonenBTN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TestpersonTestpersonenBTN.png; path = ../../../../Downloads/TestpersonTestpersonenBTN.png; sourceTree = "<group>"; };
+		3232558B226F89AD00018AC8 /* Impressum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Impressum.png; path = ../../../../../Buttons/Impressum.png; sourceTree = "<group>"; };
+		3232558C226F89AD00018AC8 /* Statistik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Statistik.png; path = ../../../../../Buttons/Statistik.png; sourceTree = "<group>"; };
+		3232558D226F89AD00018AC8 /* Funktionen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Funktionen.png; path = ../../../../../Buttons/Funktionen.png; sourceTree = "<group>"; };
+		3232558E226F89AD00018AC8 /* Fragebogen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fragebogen.png; path = ../../../../../Buttons/Fragebogen.png; sourceTree = "<group>"; };
+		3232558F226F89AD00018AC8 /* Testperson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Testperson.png; path = ../../../../../Buttons/Testperson.png; sourceTree = "<group>"; };
+		32325595226F89C600018AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +93,6 @@
 		0EBA078E2215558800C4E9F5 = {
 			isa = PBXGroup;
 			children = (
-				32E11F24226E2F88000F0C20 /* Buttons */,
 				0EBA07992215558800C4E9F5 /* GiveSleepAChance */,
 				0EBA07AE2215558A00C4E9F5 /* GiveSleepAChanceTests */,
 				0EBA07B92215558A00C4E9F5 /* GiveSleepAChanceUITests */,
@@ -126,9 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				0EBA07C8221555B900C4E9F5 /* ViewController */,
-				0EBA079A2215558800C4E9F5 /* AppDelegate.swift */,
-				0EBA079E2215558800C4E9F5 /* Main.storyboard */,
-				0EBA07A12215558A00C4E9F5 /* Assets.xcassets */,
 				0EBA07A32215558A00C4E9F5 /* LaunchScreen.storyboard */,
 				0EBA07A62215558A00C4E9F5 /* Info.plist */,
 			);
@@ -160,6 +145,9 @@
 				0EBA07D42215973800C4E9F5 /* MainViewController.swift */,
 				0EBA07D62215B19D00C4E9F5 /* NewTestPersonViewController.swift */,
 				0EBA079C2215558800C4E9F5 /* StartScreen.swift */,
+				0EBA079A2215558800C4E9F5 /* AppDelegate.swift */,
+				0EBA079E2215558800C4E9F5 /* Main.storyboard */,
+				32325595226F89C600018AC8 /* Assets.xcassets */,
 				0EBA07D222158DD000C4E9F5 /* Buttons */,
 			);
 			path = ViewController;
@@ -168,24 +156,11 @@
 		0EBA07D222158DD000C4E9F5 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				0EBA07D322158DDC00C4E9F5 /* LOginButton.png */,
-				32E11F1C226E2CC1000F0C20 /* FragebogenFragebogen.png */,
-				32E11F1F226E2CC1000F0C20 /* FunktionenFunktionen.png */,
-				32E11F1D226E2CC1000F0C20 /* ImpressumImpressum.png */,
-				32E11F1E226E2CC1000F0C20 /* StatistikStatistik.png */,
-				32E11F1A226B3C83000F0C20 /* GroupTestpersonenBTN.png */,
-			);
-			path = Buttons;
-			sourceTree = "<group>";
-		};
-		32E11F24226E2F88000F0C20 /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				32E11F25226E2FA1000F0C20 /* FragebogenFragebogen.png */,
-				32E11F28226E2FA1000F0C20 /* FunktionenFunktionen.png */,
-				32E11F2D226E2FB7000F0C20 /* TestpersonTestpersonenBTN.png */,
-				32E11F26226E2FA1000F0C20 /* ImpressumImpressum.png */,
-				32E11F27226E2FA1000F0C20 /* StatistikStatistik.png */,
+				3232558E226F89AD00018AC8 /* Fragebogen.png */,
+				3232558D226F89AD00018AC8 /* Funktionen.png */,
+				3232558B226F89AD00018AC8 /* Impressum.png */,
+				3232558C226F89AD00018AC8 /* Statistik.png */,
+				3232558F226F89AD00018AC8 /* Testperson.png */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -294,19 +269,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32E11F2E226E2FB7000F0C20 /* TestpersonTestpersonenBTN.png in Resources */,
+				32325594226F89AD00018AC8 /* Testperson.png in Resources */,
+				32325592226F89AD00018AC8 /* Funktionen.png in Resources */,
 				0EBA07A52215558A00C4E9F5 /* LaunchScreen.storyboard in Resources */,
-				32E11F2C226E2FA1000F0C20 /* FunktionenFunktionen.png in Resources */,
-				32E11F21226E2CC1000F0C20 /* ImpressumImpressum.png in Resources */,
-				0EBA07A22215558A00C4E9F5 /* Assets.xcassets in Resources */,
-				32E11F20226E2CC1000F0C20 /* FragebogenFragebogen.png in Resources */,
-				32E11F1B226B3C83000F0C20 /* GroupTestpersonenBTN.png in Resources */,
-				32E11F23226E2CC1000F0C20 /* FunktionenFunktionen.png in Resources */,
+				32325593226F89AD00018AC8 /* Fragebogen.png in Resources */,
+				32325591226F89AD00018AC8 /* Statistik.png in Resources */,
+				32325590226F89AD00018AC8 /* Impressum.png in Resources */,
+				32325596226F89C700018AC8 /* Assets.xcassets in Resources */,
 				0EBA07A02215558800C4E9F5 /* Main.storyboard in Resources */,
-				32E11F29226E2FA1000F0C20 /* FragebogenFragebogen.png in Resources */,
-				32E11F2B226E2FA1000F0C20 /* StatistikStatistik.png in Resources */,
-				32E11F22226E2CC1000F0C20 /* StatistikStatistik.png in Resources */,
-				32E11F2A226E2FA1000F0C20 /* ImpressumImpressum.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,7 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5F2M5Q56Z3;
+				DEVELOPMENT_TEAM = W8M5RJJMFD;
 				INFOPLIST_FILE = GiveSleepAChance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -529,7 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5F2M5Q56Z3;
+				DEVELOPMENT_TEAM = W8M5RJJMFD;
 				INFOPLIST_FILE = GiveSleepAChance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
