@@ -21,7 +21,7 @@
 		32325592226F89AD00018AC8 /* Funktionen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3232558D226F89AD00018AC8 /* Funktionen.png */; };
 		32325593226F89AD00018AC8 /* Fragebogen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3232558E226F89AD00018AC8 /* Fragebogen.png */; };
 		32325594226F89AD00018AC8 /* Testperson.png in Resources */ = {isa = PBXBuildFile; fileRef = 3232558F226F89AD00018AC8 /* Testperson.png */; };
-		32325596226F89C700018AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32325595226F89C600018AC8 /* Assets.xcassets */; };
+		32325598226F962000018AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32325597226F962000018AC8 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		3232558D226F89AD00018AC8 /* Funktionen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Funktionen.png; path = ../../../../../Buttons/Funktionen.png; sourceTree = "<group>"; };
 		3232558E226F89AD00018AC8 /* Fragebogen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fragebogen.png; path = ../../../../../Buttons/Fragebogen.png; sourceTree = "<group>"; };
 		3232558F226F89AD00018AC8 /* Testperson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Testperson.png; path = ../../../../../Buttons/Testperson.png; sourceTree = "<group>"; };
-		32325595226F89C600018AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		32325597226F962000018AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = GiveSleepAChance/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +113,7 @@
 		0EBA07992215558800C4E9F5 /* GiveSleepAChance */ = {
 			isa = PBXGroup;
 			children = (
+				32325597226F962000018AC8 /* Assets.xcassets */,
 				0EBA07C8221555B900C4E9F5 /* ViewController */,
 				0EBA07A32215558A00C4E9F5 /* LaunchScreen.storyboard */,
 				0EBA07A62215558A00C4E9F5 /* Info.plist */,
@@ -147,7 +148,6 @@
 				0EBA079C2215558800C4E9F5 /* StartScreen.swift */,
 				0EBA079A2215558800C4E9F5 /* AppDelegate.swift */,
 				0EBA079E2215558800C4E9F5 /* Main.storyboard */,
-				32325595226F89C600018AC8 /* Assets.xcassets */,
 				0EBA07D222158DD000C4E9F5 /* Buttons */,
 			);
 			path = ViewController;
@@ -275,7 +275,7 @@
 				32325593226F89AD00018AC8 /* Fragebogen.png in Resources */,
 				32325591226F89AD00018AC8 /* Statistik.png in Resources */,
 				32325590226F89AD00018AC8 /* Impressum.png in Resources */,
-				32325596226F89C700018AC8 /* Assets.xcassets in Resources */,
+				32325598226F962000018AC8 /* Assets.xcassets in Resources */,
 				0EBA07A02215558800C4E9F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
