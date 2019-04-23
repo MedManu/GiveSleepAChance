@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E0DA8C622418906006C741A /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DA8C522418906006C741A /* ForgotPasswordViewController.swift */; };
+		0E869798226F113300C3E743 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E869797226F113300C3E743 /* MainView.swift */; };
 		0EBA079B2215558800C4E9F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA079A2215558800C4E9F5 /* AppDelegate.swift */; };
 		0EBA079D2215558800C4E9F5 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA079C2215558800C4E9F5 /* StartScreen.swift */; };
 		0EBA07A02215558800C4E9F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBA079E2215558800C4E9F5 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		0E0DA8C522418906006C741A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		0E869797226F113300C3E743 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0EBA07972215558800C4E9F5 /* GiveSleepAChance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiveSleepAChance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBA079A2215558800C4E9F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EBA079C2215558800C4E9F5 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				0EBA07C8221555B900C4E9F5 /* ViewController */,
 				0EBA079A2215558800C4E9F5 /* AppDelegate.swift */,
 				0EBA079E2215558800C4E9F5 /* Main.storyboard */,
+				0E869797226F113300C3E743 /* MainView.swift */,
 				0EBA07A12215558A00C4E9F5 /* Assets.xcassets */,
 				0EBA07A32215558A00C4E9F5 /* LaunchScreen.storyboard */,
 				0EBA07A62215558A00C4E9F5 /* Info.plist */,
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EBA079D2215558800C4E9F5 /* StartScreen.swift in Sources */,
+				0E869798226F113300C3E743 /* MainView.swift in Sources */,
 				0EBA079B2215558800C4E9F5 /* AppDelegate.swift in Sources */,
 				0E0DA8C622418906006C741A /* ForgotPasswordViewController.swift in Sources */,
 				0EBA07CA22156DFD00C4E9F5 /* NewUserViewController.swift in Sources */,
